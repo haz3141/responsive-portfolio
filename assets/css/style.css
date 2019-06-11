@@ -185,6 +185,11 @@ textarea {
       overflow: auto;
   }
 
+  img {
+      width: 100%;
+      height: auto;
+  }
+
   @media screen and (max-width: 980px) {
     .name-header {
         background-color: red;/* For testing */
@@ -230,7 +235,7 @@ textarea {
       }
 
       ul {
-          /* width: 90%; */
+          /* width: 100%; */
           margin-top: 10px;
           /* margin-left: 30%; */
           /* margin-right: 30%; */
