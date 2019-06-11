@@ -224,17 +224,22 @@ textarea {
 
       nav {
           margin-bottom: 10px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
       }
 
       ul {
+          /* width: 90%; */
           margin-top: 10px;
+          /* margin-left: 30%; */
+          /* margin-right: 30%; */
       }
 
       .container {
           margin: 0;
           overflow: auto;
           clear: both;
-          
       }
 
       header {
