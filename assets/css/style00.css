@@ -1,0 +1,58 @@
+body {
+  background-image: url(../images/background.png);
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #ffffff;
+  overflow: auto;
+}
+
+.nav-container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.name-header {
+  background: #4aaaa5;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 5px;
+}
+
+section {
+  background: #ffffff;
+  clear: both;
+  width: 960px;
+  margin: 20px auto;
+}
+
+footer {
+  background: #666666;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: #4aaaa5;
+}
+
