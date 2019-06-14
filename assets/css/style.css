@@ -169,9 +169,6 @@ textarea {
   }
 
   @media screen and (max-width: 980px) {
-    .name-header {
-        background-color: red;/* For testing */
-    }
 
     .container {
         margin: 0 30px 0 30px;
@@ -185,10 +182,6 @@ textarea {
   }
 
   @media screen and (max-width: 768px) {
-      .name-header {
-          background-color: yellow;/* For testing */
-      }
-
       .container,
       #projects,
       #content {
@@ -198,7 +191,6 @@ textarea {
 
   @media screen and (max-width: 640px) {
       .name-header {
-          background-color: green;/* For testign */
           width: 100%;
           float: left;
           margin: 0;
@@ -232,4 +224,21 @@ textarea {
       .project-container:nth-child(even){
         margin-right: 0px;
     }
+
+    /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 20px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .project-pic {
+      width: 150px;
+      height: 150px;
+  }
   }
